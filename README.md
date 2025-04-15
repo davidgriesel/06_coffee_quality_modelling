@@ -1,5 +1,7 @@
 # 06-coffee-quality-analysis
+Project File - CareerFoundry Data Analytics Course
 
+Python |Tableau
 
 # Coffee Quality
 ## Overview
