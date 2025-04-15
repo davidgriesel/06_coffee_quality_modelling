@@ -1,4 +1,4 @@
-# CF-06-Advanced-Analytics-Python
+# 06-coffee-quality-analysis
 
 
 # Coffee Quality
