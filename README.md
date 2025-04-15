@@ -3,7 +3,7 @@ Project File - CareerFoundry Data Analytics Course
 
 Python |Tableau
 
-# Coffee Quality
+
 ## Overview
 The quality of coffee is influenced by various factors throughout its production process such as origin, variety, processing, and brewing methods. Assessing coffee quality involves both objective and subjective solutions, conducted through standardised procedures. Understanding these intricate dynamics is essential for producers aiming to enhance their crops and for consumers seeking to appreciate the nuances of different coffees.
 
