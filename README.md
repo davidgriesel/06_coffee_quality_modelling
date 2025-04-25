@@ -5,7 +5,7 @@
 
 ## Overview
 
-This self-directed project explores global coffee quality using open-source data and machine learning principles. It examines how origin, variety, and processing factors influence sensory scores, and applies statistical and clustering techniques to uncover patterns in quality and potential indicators of demand. The analysis covers beans harvested between 2009 and 2018 and investigates which countries produce the highest-quality coffee, whether certain attributes can predict others, and if higher quality correlates with increased demand.
+This self-directed project used open-source coffee quality data to apply core machine learning techniques. The analysis focused on relationships between sensory measures, using geospatial analysis to explore regional trends, regression to predict one score from others, clustering to identify sensory profiles, and time series analysis to examine seasonal patterns and production stability.
 
 
 ## Key Questions
@@ -18,9 +18,9 @@ This self-directed project explores global coffee quality using open-source data
 ## Tools Used
 
 - **Python** (Jupyter | Anaconda) – Scripting Environment  
-- **pandas, numpy, os** – Data Manipulation  
-- **matplotlib, seaborn, pylab** – Plotting | Visualisation  
-- **scikit-learn, statsmodels** – Machine Learning | Statistical Modelling  
+- **pandas | numpy | os** – Data Manipulation  
+- **matplotlib | seaborn | pylab** – Plotting | Visualisation  
+- **scikit-learn | statsmodels** – Machine Learning | Statistical Modelling  
 - **folium** – Geospatial Visualisation  
 - **Tableau** – Dashboard Design
 
@@ -35,7 +35,7 @@ This self-directed project explores global coffee quality using open-source data
 - Visualisation | Dashboard Design
 
 
-## Data Used
+## Data Sourced
 
 This analysis uses a modified version of data originally sourced from the **Coffee Quality Institute**, made available on **Kaggle**.
 
@@ -51,7 +51,7 @@ The Dataset was accessed on 02 November 2024.
 
 ## Takeaways
 
-**Successes** – The project successfully explored coffee quality measures across countries, examined relationships among sensory attributes, and demonstrated that certain quality metrics can be predicted with reasonable accuracy using others. It also served as a practical application of regression and clustering techniques using open-source data.
+**Successes** – The project successfully explored relationships between sensory quality measures and revealed patterns in global coffee scoring through geospatial, predictive, and clustering techniques. It demonstrated that certain metrics can be used to predict others with reasonable accuracy and provided a practical opportunity to apply regression, clustering, and time series methods to open-source data.
 
 **Challenges** – The dataset lacked the granularity required to assess consumer demand relative to quality scores. This limited the ability to explore market dynamics and highlighted the importance of defining analytical objectives and data requirements clearly at the start of a project.
 
