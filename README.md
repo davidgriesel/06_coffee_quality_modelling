@@ -7,7 +7,9 @@
 
 This self-directed project explores global coffee quality using open-source data and machine learning principles. It examines how origin, variety, and processing factors influence sensory scores, and applies statistical and clustering techniques to uncover patterns in quality and potential indicators of demand. The analysis covers beans harvested between 2009 and 2018 and investigates which countries produce the highest-quality coffee, whether certain attributes can predict others, and if higher quality correlates with increased demand.
 
+
 ## Key Questions
+
 1. Which countries produce the best coffee?  
 2. Can certain measures be used to predict the scores of others?  
 3. Is there a higher demand for coffee with better quality scores?
@@ -57,6 +59,7 @@ The Dataset was accessed on 02 November 2024.
 
 
 ## License
+
 This project is licensed under the MIT License.
 
 
