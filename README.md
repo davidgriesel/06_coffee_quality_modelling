@@ -1,38 +1,68 @@
-# 06-coffee-quality-modelling
+# Coffee Quality Modelling
+
+*This project was completed as part of the [CareerFoundry Data Analytics Program](https://careerfoundry.com/en/courses/become-a-data-analyst/).*
+
 
 ## Overview
-The quality of coffee is influenced by various factors throughout its production process such as origin, variety, processing, and brewing methods. Assessing coffee quality involves both objective and subjective solutions, conducted through standardised procedures. Understanding these intricate dynamics is essential for producers aiming to enhance their crops and for consumers seeking to appreciate the nuances of different coffees.
 
-## Goals
-Analyse coffee quality across countries, explore predictive relationships between quality measures, and examine the link between quality scores and demand.
-
-## Scope
-The analysis covers beans harvested worldwide between 2009 and 2018.
+This self-directed project explores global coffee quality using open-source data and machine learning principles. It examines how origin, variety, and processing factors influence sensory scores, and applies statistical and clustering techniques to uncover patterns in quality and potential indicators of demand. The analysis covers beans harvested between 2009 and 2018 and investigates which countries produce the highest-quality coffee, whether certain attributes can predict others, and if higher quality correlates with increased demand.
 
 ## Key Questions
-1. Which countries produce the best coffee?
-2. Can certain measures be used to predict the scores of others?
+1. Which countries produce the best coffee?  
+2. Can certain measures be used to predict the scores of others?  
 3. Is there a higher demand for coffee with better quality scores?
 
+
+## Tools Used
+
+- **Python** (Jupyter | Anaconda) – Scripting Environment  
+- **pandas, numpy, os** – Data Manipulation  
+- **matplotlib, seaborn, pylab** – Plotting | Visualisation  
+- **scikit-learn, statsmodels** – Machine Learning | Statistical Modelling  
+- **folium** – Geospatial Visualisation  
+- **Tableau** – Dashboard Design
+
+
 ## Skills Demonstrated
-- Data sourcing and preparation: Sourcing and preparing open source data for analysis.
-- Exploratory data analysis (EDA): Using Python, visualising relationships, and developing hypotheses based on data patterns.
-- Geospatial analysis: Integrating and analysing spatial data using shape files and Python to create Choropleth maps.
-- Machine learning (Supervised and unsupervised: Applying regression techniques for predictive analysis and k-means clustering for pattern discovery.
-- Time-series analysis: Analysing temporal data through decomposition, stationarity tests, and transformations to enable predictive modelling.
-- Data visualisation and Storytelling: Effectively communicating insights through Tableau dashboards and Python visualisations, ensuring audience engagement and clarity.
 
-## Tools
-- Python
-- Tableau
+- Script Writing  
+- Exploratory Data Analysis | Data Wrangling | Aggregation | Subsetting  
+- Linear Regression | Clustering (K-Means) | Model Evaluation  
+- Time Series Analysis | Stationarity Testing | Lag Analysis  
+- Geospatial Mapping  
+- Visualisation | Dashboard Design
 
-## Data
-Two datasets from the Coffee Quality Institute was used in the analysis:
 
-1. Coffee Quality with Locations of Origin – Quality scores of coffee beans by country.
-2. Average Production Per Year – Consumption, import, export, and production metrics over time.
+## Data Used
 
-Links to the various contributors and sources can be found on [Kaggle](https://www.kaggle.com/datasets/adampq/coffee-quality-with-locations-of-origin/data)
+This analysis uses a modified version of data originally sourced from the **Coffee Quality Institute**, made available on **Kaggle**.
 
-## Links
-[Tableau](https://public.tableau.com/views/CoffeeQuality_17336702986480/CoffeeQuality?:language=en-GB&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
+- [**Coffee Quality Dataset**](https://www.kaggle.com/datasets/adampq/coffee-quality-with-locations-of-origin/data) – Bean origin, variety, altitude, processing method, physical attributes, flavour metrics, and total quality score, with geospatial coordinates for most entries.
+    
+The Dataset was accessed on 02 November 2024.
+
+
+## Deliverables
+
+- **Tableau Dashboard** *(link to be added)*
+
+
+## Takeaways
+
+**Successes** – The project successfully explored coffee quality measures across countries, examined relationships among sensory attributes, and demonstrated that certain quality metrics can be predicted with reasonable accuracy using others. It also served as a practical application of regression and clustering techniques using open-source data.
+
+**Challenges** – The dataset lacked the granularity required to assess consumer demand relative to quality scores. This limited the ability to explore market dynamics and highlighted the importance of defining analytical objectives and data requirements clearly at the start of a project.
+
+**Way Forward** – Future iterations should focus on sourcing a dataset that includes pricing, volumes sold, or export trends to better assess demand. Additionally, experimenting with alternative modelling techniques may improve predictions for less correlated attributes. A revised Tableau dashboard is planned to enhance visual storytelling and consolidate key insights from the notebooks into an interactive format.
+
+
+## License
+This project is licensed under the MIT License.
+
+
+## Repository Structure
+
+```text
+├── notebooks/            # Python Notebooks
+├── LICENSE               # Project License
+└── README.md             # Project Overview
