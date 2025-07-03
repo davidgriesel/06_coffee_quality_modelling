@@ -24,17 +24,20 @@ This analysis uses a modified version of data originally sourced from the **Coff
     
 The Dataset was accessed on 02 November 2024.
 
-<!--## links
-- **Tableau Dashboard**
-
-## Key Questions
-1. Which countries produce the best coffee?  
-2. Can certain measures be used to predict the scores of others?  
-3. Is there a higher demand for coffee with better quality scores?
+<!--## Deliverables
+- **Tableau Dashboard** -->
 
 ## Key Insights
+### 1. Which countries produce the best coffee?
 
-## Key Recommendations
+
+### 2. Can certain measures be used to predict the scores of others?
+
+
+### 3. Is there a higher demand for coffee with better quality scores?
+
+
+### 4. 
 
 ## Takeaways
 ### Successes
