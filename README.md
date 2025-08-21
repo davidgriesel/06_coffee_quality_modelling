@@ -13,9 +13,8 @@ This self-directed project used open-source coffee quality data to apply core ma
 <!--- **Tableau** – Dashboard Design-->
 
 ## Process
-- **Data Preparation** - Exploratory Data Analysis | Data Wrangling | Aggregation | Subsetting
+- **Preparation** - Exploratory Data Analysis | Data Wrangling | Aggregation | Subsetting
 - **Analysis** - Linear Regression | Clustering (K-Means) | Model Evaluation | Time Series Analysis | Stationarity Testing | Lag Analysis | Geospatial Analysis
-<!-- - Visualisation | Dashboard Design-->
 
 ## Data
 This analysis uses a modified version of data originally sourced from the **Coffee Quality Institute**, made available on **Kaggle**.
